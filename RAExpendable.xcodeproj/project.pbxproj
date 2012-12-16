@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF47D39A167D7DE400173FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D399167D7DE400173FC8 /* Foundation.framework */; };
+		FF47D39F167D7DE400173FC8 /* RAExpendable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF47D39E167D7DE400173FC8 /* RAExpendable.h */; };
+		FF47D3AE167D7DF900173FC8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D3AD167D7DF900173FC8 /* SenTestingKit.framework */; };
+		FF47D3B0167D7DF900173FC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D3AF167D7DF900173FC8 /* UIKit.framework */; };
+		FF47D3B1167D7DF900173FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D399167D7DE400173FC8 /* Foundation.framework */; };
+		FF47D3B7167D7DF900173FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */; };
+		FF47D3BA167D7DF900173FC8 /* RAExpendableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */; };
+		FF47D3C1167D80F000173FC8 /* libRAExpendable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D396167D7DE400173FC8 /* libRAExpendable.a */; };
+		FF47D3C6167D82E400173FC8 /* RAExpendable.m in Sources */ = {isa = PBXBuildFile; fileRef = FF47D3A0167D7DE400173FC8 /* RAExpendable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF47D3BF167D80ED00173FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF47D38D167D7DE400173FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF47D395167D7DE400173FC8;
+			remoteInfo = SPExpendable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF47D394167D7DE400173FC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				FF47D39F167D7DE400173FC8 /* RAExpendable.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF47D396167D7DE400173FC8 /* libRAExpendable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRAExpendable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF47D399167D7DE400173FC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAExpendable-Prefix.pch"; sourceTree = "<group>"; };
+		FF47D39E167D7DE400173FC8 /* RAExpendable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAExpendable.h; sourceTree = "<group>"; };
+		FF47D3A0167D7DE400173FC8 /* RAExpendable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAExpendable.m; sourceTree = "<group>"; };
+		FF47D3AC167D7DF900173FC8 /* RAExpendableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAExpendableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF47D3AD167D7DF900173FC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF47D3AF167D7DF900173FC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAExpendableTests-Info.plist"; sourceTree = "<group>"; };
+		FF47D3B6167D7DF900173FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAExpendableTests.h; sourceTree = "<group>"; };
+		FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAExpendableTests.m; sourceTree = "<group>"; };
+		FF47D3BB167D7DF900173FC8 /* RAExpendableTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAExpendableTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF47D393167D7DE400173FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF47D39A167D7DE400173FC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF47D3A8167D7DF900173FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF47D3C1167D80F000173FC8 /* libRAExpendable.a in Frameworks */,
+				FF47D3B1167D7DF900173FC8 /* Foundation.framework in Frameworks */,
+				FF47D3AE167D7DF900173FC8 /* SenTestingKit.framework in Frameworks */,
+				FF47D3B0167D7DF900173FC8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF47D38B167D7DE400173FC8 = {
+			isa = PBXGroup;
+			children = (
+				FF47D39B167D7DE400173FC8 /* RAExpendable */,
+				FF47D3B2167D7DF900173FC8 /* SPExpendableTests */,
+				FF47D398167D7DE400173FC8 /* Frameworks */,
+				FF47D397167D7DE400173FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF47D397167D7DE400173FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D396167D7DE400173FC8 /* libRAExpendable.a */,
+				FF47D3AC167D7DF900173FC8 /* RAExpendableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF47D398167D7DE400173FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D399167D7DE400173FC8 /* Foundation.framework */,
+				FF47D3AD167D7DF900173FC8 /* SenTestingKit.framework */,
+				FF47D3AF167D7DF900173FC8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF47D39B167D7DE400173FC8 /* RAExpendable */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D39E167D7DE400173FC8 /* RAExpendable.h */,
+				FF47D3A0167D7DE400173FC8 /* RAExpendable.m */,
+				FF47D39C167D7DE400173FC8 /* Supporting Files */,
+			);
+			path = RAExpendable;
+			sourceTree = "<group>";
+		};
+		FF47D39C167D7DE400173FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF47D3B2167D7DF900173FC8 /* SPExpendableTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */,
+				FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */,
+				FF47D3B3167D7DF900173FC8 /* Supporting Files */,
+			);
+			name = SPExpendableTests;
+			path = RAExpendableTests;
+			sourceTree = "<group>";
+		};
+		FF47D3B3167D7DF900173FC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */,
+				FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */,
+				FF47D3BB167D7DF900173FC8 /* RAExpendableTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF47D395167D7DE400173FC8 /* RAExpendable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF47D3A4167D7DE400173FC8 /* Build configuration list for PBXNativeTarget "RAExpendable" */;
+			buildPhases = (
+				FF47D392167D7DE400173FC8 /* Sources */,
+				FF47D393167D7DE400173FC8 /* Frameworks */,
+				FF47D394167D7DE400173FC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAExpendable;
+			productName = SPExpendable;
+			productReference = FF47D396167D7DE400173FC8 /* libRAExpendable.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF47D3AB167D7DF900173FC8 /* RAExpendableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF47D3BC167D7DF900173FC8 /* Build configuration list for PBXNativeTarget "RAExpendableTests" */;
+			buildPhases = (
+				FF47D3A7167D7DF900173FC8 /* Sources */,
+				FF47D3A8167D7DF900173FC8 /* Frameworks */,
+				FF47D3A9167D7DF900173FC8 /* Resources */,
+				FF47D3AA167D7DF900173FC8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF47D3C0167D80ED00173FC8 /* PBXTargetDependency */,
+			);
+			name = RAExpendableTests;
+			productName = SPExpendableTests;
+			productReference = FF47D3AC167D7DF900173FC8 /* RAExpendableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF47D38D167D7DE400173FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF47D390167D7DE400173FC8 /* Build configuration list for PBXProject "RAExpendable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF47D38B167D7DE400173FC8;
+			productRefGroup = FF47D397167D7DE400173FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF47D395167D7DE400173FC8 /* RAExpendable */,
+				FF47D3AB167D7DF900173FC8 /* RAExpendableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF47D3A9167D7DF900173FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF47D3B7167D7DF900173FC8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF47D3AA167D7DF900173FC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF47D392167D7DE400173FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF47D3C6167D82E400173FC8 /* RAExpendable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF47D3A7167D7DF900173FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF47D3BA167D7DF900173FC8 /* RAExpendableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF47D3C0167D80ED00173FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF47D395167D7DE400173FC8 /* RAExpendable */;
+			targetProxy = FF47D3BF167D80ED00173FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF47D3B6167D7DF900173FC8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF47D3A2167D7DE400173FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF47D3A3167D7DE400173FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF47D3A5167D7DE400173FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RAExpendable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAExpendable/RAExpendable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF47D3A6167D7DE400173FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RAExpendable.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAExpendable/RAExpendable-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF47D3BD167D7DF900173FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAExpendableTests/RAExpendableTests-Prefix.pch";
+				INFOPLIST_FILE = "RAExpendableTests/RAExpendableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF47D3BE167D7DF900173FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RAExpendableTests/RAExpendableTests-Prefix.pch";
+				INFOPLIST_FILE = "RAExpendableTests/RAExpendableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF47D390167D7DE400173FC8 /* Build configuration list for PBXProject "RAExpendable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47D3A2167D7DE400173FC8 /* Debug */,
+				FF47D3A3167D7DE400173FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF47D3A4167D7DE400173FC8 /* Build configuration list for PBXNativeTarget "RAExpendable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47D3A5167D7DE400173FC8 /* Debug */,
+				FF47D3A6167D7DE400173FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF47D3BC167D7DF900173FC8 /* Build configuration list for PBXNativeTarget "RAExpendableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF47D3BD167D7DF900173FC8 /* Debug */,
+				FF47D3BE167D7DF900173FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF47D38D167D7DE400173FC8 /* Project object */;
+}
