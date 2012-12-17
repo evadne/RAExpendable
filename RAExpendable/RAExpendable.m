@@ -44,4 +44,22 @@
 	
 }
 
+- (void) dealloc {
+
+	if ([self class] != [RAExpendable class]) {
+		
+		//	If somebody is using KVO, they will be screwed.
+		
+		Class class = [self class];
+		
+		dispatch_async(dispatch_get_main_queue(), ^{
+		
+			objc_disposeClassPair(class);
+			
+		});
+	
+	}
+
+}
+
 @end
