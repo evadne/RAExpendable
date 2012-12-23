@@ -18,7 +18,7 @@
 	if ([self class] == [RAExpendable class]) {
 	
 		CFUUIDRef uuid = CFUUIDCreate(NULL);
-		CFStringRef uuidString;
+		CFStringRef uuidString = NULL;
 		if (uuid) {
 			uuidString = CFUUIDCreateString(NULL, uuid);
 			CFRelease(uuid);
