@@ -14,3 +14,10 @@
 - (void) addMethodForSelector:(SEL)selector types:(const char *)types block:(id)block;
 
 @end
+
+
+@interface NSObject (RAExpendable)
+
+- (void) addMethodForSelector:(SEL)selector types:(const char *)types block:(id)block;
+
+@end

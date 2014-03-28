@@ -52,7 +52,6 @@
 		FF47D3AF167D7DF900173FC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAExpendableTests-Info.plist"; sourceTree = "<group>"; };
 		FF47D3B6167D7DF900173FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAExpendableTests.h; sourceTree = "<group>"; };
 		FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAExpendableTests.m; sourceTree = "<group>"; };
 		FF47D3BB167D7DF900173FC8 /* RAExpendableTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAExpendableTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +129,6 @@
 		FF47D3B2167D7DF900173FC8 /* SPExpendableTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */,
 				FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */,
 				FF47D3B3167D7DF900173FC8 /* Supporting Files */,
 			);
