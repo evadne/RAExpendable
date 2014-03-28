@@ -12,7 +12,6 @@
 		FF47D3AE167D7DF900173FC8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D3AD167D7DF900173FC8 /* SenTestingKit.framework */; };
 		FF47D3B0167D7DF900173FC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D3AF167D7DF900173FC8 /* UIKit.framework */; };
 		FF47D3B1167D7DF900173FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D399167D7DE400173FC8 /* Foundation.framework */; };
-		FF47D3B7167D7DF900173FC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */; };
 		FF47D3BA167D7DF900173FC8 /* RAExpendableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */; };
 		FF47D3C1167D80F000173FC8 /* libRAExpendable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47D396167D7DE400173FC8 /* libRAExpendable.a */; };
 		FF47D3C6167D82E400173FC8 /* RAExpendable.m in Sources */ = {isa = PBXBuildFile; fileRef = FF47D3A0167D7DE400173FC8 /* RAExpendable.m */; };
@@ -44,15 +43,13 @@
 /* Begin PBXFileReference section */
 		FF47D396167D7DE400173FC8 /* libRAExpendable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRAExpendable.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF47D399167D7DE400173FC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAExpendable-Prefix.pch"; sourceTree = "<group>"; };
-		FF47D39E167D7DE400173FC8 /* RAExpendable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAExpendable.h; sourceTree = "<group>"; };
-		FF47D3A0167D7DE400173FC8 /* RAExpendable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAExpendable.m; sourceTree = "<group>"; };
+		FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RAExpendable-Prefix.pch"; path = "../RAExpendable/RAExpendable-Prefix.pch"; sourceTree = "<group>"; };
+		FF47D39E167D7DE400173FC8 /* RAExpendable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAExpendable.h; path = RAExpendable/RAExpendable.h; sourceTree = "<group>"; };
+		FF47D3A0167D7DE400173FC8 /* RAExpendable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAExpendable.m; path = RAExpendable/RAExpendable.m; sourceTree = "<group>"; };
 		FF47D3AC167D7DF900173FC8 /* RAExpendableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAExpendableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF47D3AD167D7DF900173FC8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF47D3AF167D7DF900173FC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAExpendableTests-Info.plist"; sourceTree = "<group>"; };
-		FF47D3B6167D7DF900173FC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAExpendableTests.h; sourceTree = "<group>"; };
 		FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAExpendableTests.m; sourceTree = "<group>"; };
 		FF47D3BB167D7DF900173FC8 /* RAExpendableTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAExpendableTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,9 +80,9 @@
 		FF47D38B167D7DE400173FC8 = {
 			isa = PBXGroup;
 			children = (
-				FF47D39B167D7DE400173FC8 /* RAExpendable */,
-				FF47D3B2167D7DF900173FC8 /* SPExpendableTests */,
-				FF47D398167D7DE400173FC8 /* Frameworks */,
+				FF47D39E167D7DE400173FC8 /* RAExpendable.h */,
+				FF47D3A0167D7DE400173FC8 /* RAExpendable.m */,
+				FF47D3B3167D7DF900173FC8 /* Supporting Files */,
 				FF47D397167D7DE400173FC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,45 +104,20 @@
 				FF47D3AF167D7DF900173FC8 /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FF47D39B167D7DE400173FC8 /* RAExpendable */ = {
-			isa = PBXGroup;
-			children = (
-				FF47D39E167D7DE400173FC8 /* RAExpendable.h */,
-				FF47D3A0167D7DE400173FC8 /* RAExpendable.m */,
-				FF47D39C167D7DE400173FC8 /* Supporting Files */,
-			);
-			path = RAExpendable;
-			sourceTree = "<group>";
-		};
-		FF47D39C167D7DE400173FC8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FF47D3B2167D7DF900173FC8 /* SPExpendableTests */ = {
-			isa = PBXGroup;
-			children = (
-				FF47D3B8167D7DF900173FC8 /* RAExpendableTests.h */,
-				FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */,
-				FF47D3B3167D7DF900173FC8 /* Supporting Files */,
-			);
-			name = SPExpendableTests;
-			path = RAExpendableTests;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FF47D3B3167D7DF900173FC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */,
-				FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */,
+				FF47D3B9167D7DF900173FC8 /* RAExpendableTests.m */,
 				FF47D3BB167D7DF900173FC8 /* RAExpendableTests-Prefix.pch */,
+				FF47D39D167D7DE400173FC8 /* RAExpendable-Prefix.pch */,
+				FF47D3B4167D7DF900173FC8 /* RAExpendableTests-Info.plist */,
+				FF47D398167D7DE400173FC8 /* Frameworks */,
 			);
 			name = "Supporting Files";
+			path = RAExpendableTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF47D3B7167D7DF900173FC8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,17 +238,6 @@
 			targetProxy = FF47D3BF167D80ED00173FC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FF47D3B5167D7DF900173FC8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF47D3B6167D7DF900173FC8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FF47D3A2167D7DE400173FC8 /* Debug */ = {

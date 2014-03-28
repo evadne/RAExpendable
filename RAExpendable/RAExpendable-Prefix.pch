@@ -1,7 +1,8 @@
 //
-// Prefix header for all source files of the 'RAExpendable' target in the 'RAExpendable' project
+// Prefix header for all source files of the 'RAExpendable' target in the
+// 'RAExpendable' project
 //
 
 #ifdef __OBJC__
-	#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 #endif
